@@ -214,29 +214,55 @@ module.exports = {
           },
           {
             test: /\.scss$/,
-            use: [
-              { loader: 'style-loader' },
-              {
-                loader: 'css-loader',
-                options: { importLoaders: 2 },
-              },
-              {
-                loader: 'postcss-loader',
-                options: {
-                  plugins: () => [
-                    require('autoprefixer')({
-                      browsers: ['last 1 version', 'ie >= 11'],
-                    }),
+            loader: ExtractTextPlugin.extract(
+              Object.assign(
+                {
+                  fallback: {
+                    loader: require.resolve('style-loader'),
+                    options: {
+                      hmr: false,
+                    },
+                  },
+                  use: [
+                    {
+                      loader: 'css-loader',
+                      options: { loader: require.resolve('css-loader'),
+                      options: {
+                        importLoaders: 2,
+                        minimize: true,
+                        sourceMap: shouldUseSourceMap,
+                      }, },
+                    },
+                    {
+                      loader: 'postcss-loader',
+                      options: {
+                        plugins: () => [
+                          require('postcss-flexbugs-fixes'),
+                          autoprefixer({
+                            browsers: [
+                              '>1%',
+                              'last 4 versions',
+                              'Firefox ESR',
+                              'not ie < 9', // React doesn't support IE8 anyway
+                            ],
+                            flexbox: 'no-2009',
+                          }),
+                        ],
+                      },
+                    },
+                    {
+                      loader: 'sass-loader',
+                      options: {
+                        importLoaders: 3,
+                        minimize: true,
+                        sourceMap: shouldUseSourceMap,
+                      },
+                    },
                   ],
                 },
-              },
-              {
-                loader: 'sass-loader',
-                options: {
-                  includePaths: [path.resolve(__dirname, '..', 'node_modules')],
-                },
-              },
-            ],
+                extractTextPluginOptions
+              )
+            ),
           },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.
