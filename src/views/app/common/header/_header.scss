@@ -1,0 +1,43 @@
+$primary-color:  #000000;
+$text-color: black;
+$header-color: white;
+$menu-color: black;
+
+.header-style{
+  align-items: center;
+  background-color: $header-color;
+  color: $text-color;
+  height: 6rem;
+  text-align: center;
+  margin: 0px 0px;
+
+  img{
+    max-width: 35px;
+    height: auto;
+  }
+
+  a{
+    color: $text-color;
+  }
+  
+}
+
+.header-menu{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  
+
+  a:link, a:visited{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+
+  &.header-border{
+    border-left: solid rgb(226, 225, 225) 1px;
+    border-right: solid rgb(226, 225, 225) 1px;
+  }
+}
