@@ -2,6 +2,7 @@
   "name": "opreker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://erickow.github.io/opreker-page-main-forum/",
   "dependencies": {
     "carbon-components": "^9.30.1",
     "carbon-components-react": "^6.41.0",
