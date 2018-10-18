@@ -3,7 +3,7 @@ import MenuTop from './menuTop'
 import { Tile } from 'carbon-components-react';
 
 // import NavLogo from './../../../assets/img/favicon.ico'
-import Logo from './../../../assets/img/dummy.jpg';
+// import Logo from './../../../assets/img/dummy.jpg';
 
 class ThreadList extends Component {
   constructor(props){
@@ -34,7 +34,7 @@ class ThreadList extends Component {
     return (
       <div className="bx--grid">
           <div className="bx--row" style={{margin:'1rem'}}>
-            <div className="bx--col-md-8" >
+            <div className="bx--col-md-12" >
               <Tile>
                 <MenuTop/>
                 <section className="bx--structured-list">
@@ -116,11 +116,11 @@ class ThreadList extends Component {
                 
               </Tile>
             </div>
-            <div className="bx--col-md-4">
+            {/* <div className="bx--col-md-4">
                 <Tile>
                   <img src={Logo} alt="logo" style={{width:'100%', height:'15rem'}}></img>
                 </Tile>
-            </div>
+            </div> */}
           </div>
         </div>
     );  
