@@ -1,10 +1,10 @@
 {
   "main.css": "/opreker-page-main-forum/static/css/main.da496970.chunk.css",
-  "main.js": "/opreker-page-main-forum/static/js/main.35b5afbf.chunk.js",
-  "main.js.map": "/opreker-page-main-forum/static/js/main.35b5afbf.chunk.js.map",
+  "main.js": "/opreker-page-main-forum/static/js/main.415456ea.chunk.js",
+  "main.js.map": "/opreker-page-main-forum/static/js/main.415456ea.chunk.js.map",
   "static/css/1.a428be52.chunk.css": "/opreker-page-main-forum/static/css/1.a428be52.chunk.css",
-  "static/js/1.a4d2e425.chunk.js": "/opreker-page-main-forum/static/js/1.a4d2e425.chunk.js",
-  "static/js/1.a4d2e425.chunk.js.map": "/opreker-page-main-forum/static/js/1.a4d2e425.chunk.js.map",
+  "static/js/1.97705fa6.chunk.js": "/opreker-page-main-forum/static/js/1.97705fa6.chunk.js",
+  "static/js/1.97705fa6.chunk.js.map": "/opreker-page-main-forum/static/js/1.97705fa6.chunk.js.map",
   "runtime~main.js": "/opreker-page-main-forum/static/js/runtime~main.1ac4534c.js",
   "runtime~main.js.map": "/opreker-page-main-forum/static/js/runtime~main.1ac4534c.js.map",
   "static/media/favicon.ico": "/opreker-page-main-forum/static/media/favicon.c92b85a5.ico",
@@ -14,6 +14,6 @@
   "static/css/main.da496970.chunk.css.map": "/opreker-page-main-forum/static/css/main.da496970.chunk.css.map",
   "static/css/1.a428be52.chunk.css.map": "/opreker-page-main-forum/static/css/1.a428be52.chunk.css.map",
   "index.html": "/opreker-page-main-forum/index.html",
-  "precache-manifest.582edb499ec3ee9646851972473b7a45.js": "/opreker-page-main-forum/precache-manifest.582edb499ec3ee9646851972473b7a45.js",
+  "precache-manifest.f5adc6ce41bb35f77bb0fb85f7b3e9c0.js": "/opreker-page-main-forum/precache-manifest.f5adc6ce41bb35f77bb0fb85f7b3e9c0.js",
   "service-worker.js": "/opreker-page-main-forum/service-worker.js"
 }
