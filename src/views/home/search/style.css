@@ -1,0 +1,24 @@
+.search-input > .bx--search-input{
+  height: 80% !important;
+  font-size: 1.5rem !important;
+  background-color: white !important;
+  border-style: solid;
+  border-radius: 3rem;
+}
+
+.search-input > .bx--search-magnifier{
+  height: 24px;
+  width: 24px;
+  top: 1.3rem;
+  fill:black;
+}
+
+.bx--tile-custom {
+  height: 4rem;
+}
+
+.search-input{
+  height: 100% !important;
+  align-items: center;
+}
+

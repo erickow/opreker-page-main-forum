@@ -1,0 +1,42 @@
+.header-row{
+  padding: 0%;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  background: rgba(81, 82, 85, 0.3);
+  color: white;
+}
+
+.image-row{
+  margin: 0%;
+  padding: 0%;
+}
+
+.menu{
+  padding: 1.5rem;
+}
+
+.menu-right{
+  text-align: right !important;
+  
+  margin-left: auto;
+}
+
+.menu-left{
+  text-align: left !important;
+}
+
+
+.menu:hover{
+  background-color: lightblue;
+}
+
+.menu-text{
+  color: white !important; 
+  text-decoration: none !important;
+  font-size: 1.1em;
+}
+
+.space-center{
+  text-align: center;
+}
