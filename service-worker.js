@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/opreker-page-main-forum/precache-manifest.811705c25be901126b7215e951ed3c48.js"
+  "/opreker-page-main-forum/precache-manifest.2ea349ff75f9409037cb558e9e6a1c4a.js"
 );
 
 workbox.clientsClaim();
