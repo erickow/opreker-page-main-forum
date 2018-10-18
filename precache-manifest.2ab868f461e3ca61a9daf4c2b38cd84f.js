@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/opreker-page-main-forum/static/media/dummy.a1bc0e48.jpg"
   },
   {
-    "revision": "5b60a6744da93a1fd001",
-    "url": "/opreker-page-main-forum/static/css/main.2cf21213.chunk.css"
+    "revision": "90eb447fe26da8aaddaf",
+    "url": "/opreker-page-main-forum/static/css/main.da496970.chunk.css"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/opreker-page-main-forum/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "bd0ded773cdf7107c7df",
-    "url": "/opreker-page-main-forum/static/js/1.bd0ded77.chunk.js"
+    "revision": "a4d2e425b488e72b2246",
+    "url": "/opreker-page-main-forum/static/js/1.a4d2e425.chunk.js"
   },
   {
     "revision": "1ac4534c50b15668446b",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/opreker-page-main-forum/static/media/favicon.c92b85a5.ico"
   },
   {
-    "revision": "5b60a6744da93a1fd001",
-    "url": "/opreker-page-main-forum/static/js/main.5b60a674.chunk.js"
+    "revision": "90eb447fe26da8aaddaf",
+    "url": "/opreker-page-main-forum/static/js/main.90eb447f.chunk.js"
   },
   {
     "revision": "914ad2d8ef0fa4d2eb0226ba375cb55c",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/opreker-page-main-forum/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "bd0ded773cdf7107c7df",
-    "url": "/opreker-page-main-forum/static/css/1.aa98db8d.chunk.css"
+    "revision": "a4d2e425b488e72b2246",
+    "url": "/opreker-page-main-forum/static/css/1.a428be52.chunk.css"
   },
   {
-    "revision": "11263e7b3f06d69c89f64b10fbc2a421",
+    "revision": "b92e836fa9f210f6029e28c7988cdd91",
     "url": "/opreker-page-main-forum/index.html"
   }
 ];
